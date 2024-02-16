@@ -24,7 +24,7 @@ function VolunteerForm() {
         const volunteerData = { ...formData };
 
         // Store data in db.json using json-server
-        fetch('http://localhost:3000/volunteers', {
+        fetch('src/Components/Volunteers.json', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
